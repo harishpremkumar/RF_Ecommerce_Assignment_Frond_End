@@ -5,6 +5,8 @@ Resource    ../Resource/Launch_Amazon.robot
 Resource    ../Resource/common.robot
 
 
+
+
 *** Keywords ***
 I am on the Amazon homepage
     Launch_Amazon
@@ -38,3 +40,4 @@ I proceed to the "Buy Now" screen
 
 I should be directed to the payment gateway screen
     Wait Until the Element is Present then Click the Element    //span[@id="sc-buy-box-ptc-button"]
+    

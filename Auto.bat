@@ -1,3 +1,3 @@
-pabot --suitesfrom ./Testcase/ -d ./Report/ -i Test  .
+pabot --suitesfrom ./API_Test/ -d ./Report/ -i Test03  .
 
 

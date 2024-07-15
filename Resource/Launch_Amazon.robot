@@ -11,7 +11,7 @@ Launch_Amazon
     # Call Method    ${options}    add_argument    --no-sandbox
     # Call Method    ${options}    add_argument    --disable-gpu
     Call Method    ${options}    add_argument    --incognito
-    # Call Method    ${options}    add_argument    --headless
+    Call Method    ${options}    add_argument    --headless
     Open Browser    url=${Amazon_url}    browser=${browser}    options=${options}
     Maximize Browser Window
     
