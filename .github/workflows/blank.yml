@@ -17,10 +17,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up JDK
-        uses: actions/setup-java@v2
-        with:
-          java-version: '11'  # Adjust the Java version as per your requirements
 
       - name: Run JMeter Tests
         uses: rbhadti94/apache-jmeter-action@v0.5.0
