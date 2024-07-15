@@ -1,6 +1,4 @@
 *** Settings ***
-Library    SeleniumLibrary
-
 Documentation    Using this suite we can search specified product on Amazon Platform
 
 Resource    TC01_Support.robot
